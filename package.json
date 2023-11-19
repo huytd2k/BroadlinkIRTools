@@ -1,7 +1,7 @@
 {
   "name": "broadlink-tools",
   "version": "1.1.0",
-  "description": "A helper for create SmartIr code faster",
+  "description": "A helper for create SmartIr code faster.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config build/webpack.config.dev.js",
