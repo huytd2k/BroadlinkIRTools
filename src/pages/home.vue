@@ -116,7 +116,7 @@ export default {
         }
 
         let url = new URL(this.hassInfo.url);
-        vm.socket = new WebSocket(`wss://${url.host}/api/websocket`);
+        vm.socket = new WebSocket(`ws://${url.host}/api/websocket`);
         vm.$store.commit("socket", vm.socket);
 
         // Listen for messages
